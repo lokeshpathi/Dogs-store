@@ -1,0 +1,116 @@
+.Root{
+ justify-content: center;
+ align-items: center;
+ display:flex;
+ gap:50px;
+ flex-wrap: wrap;
+ margin-top:40px;
+ margin-left:5%;
+ margin-right:5%
+}
+.title{
+    height:auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left:8%;
+    margin-right:8%;
+    justify-content: space-between;
+}
+.title-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:50%;
+    height: 100%;
+}
+
+.title-left{
+    display: flex;
+    align-items: center;
+}
+
+.val-title{
+    font-size: 26px;
+    font-weight: 700;
+    color:rgb(131, 231, 147);
+    height: 100%;
+    padding:8px
+}
+.val-title:hover{
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.214);
+    transition: box-shadow 0.7s;
+}
+
+.logo{
+    border-radius: 50%;
+}
+.logo-name{
+    margin-left:7px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+.title:hover{
+    box-shadow: 2px 5px 15px rgb(131, 231, 147);
+    transition: box-shadow 0.7s;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    margin:30px;
+    border-radius: 20px;
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.214);
+    border-radius: 20px;
+}
+.card:hover{
+    box-shadow: 2px 5px 15px rgb(131, 231, 147);
+    transition: box-shadow 0.3s;
+}
+
+.name{
+    margin:33px;
+    margin-top: 8px;
+}
+.cost{
+    margin:33px;
+    margin-top: 8px;
+    margin-bottom: 33px;;
+}
+span{
+    color:rgb(131, 231, 147);
+}
+.order{
+    margin:0px 30px 20px 30px;
+    padding:10px;
+    border-radius: 5px;
+    background: transparent;
+    border-color: rgb(131, 231, 147);
+    border-style:solid;
+    color: rgb(131, 231, 147);
+    font-size: 20px;
+    font-weight: 500;
+}
+.order:hover{
+    color:white;
+    background-color: rgb(131, 231, 147);
+    transition:color 0.5s;
+    transition:background-color 0.5s;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: rgb(131, 231, 147);
+    font-size: 20px;
+    font-weight: 700;
+}

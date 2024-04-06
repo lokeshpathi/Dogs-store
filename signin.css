@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    padding:50px;
+    width:40%; 
+    box-shadow: 2px 5px 15px black;
+}
+
+.email{
+    margin:15px 0px;
+    padding:8px;
+    width:40%;
+}
+
+.Password{
+    padding:8px;
+    width:40%;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.forgot{
+    margin:8px auto;
+    text-decoration: none;
+    color:#1877F2;
+}
+
+.login{
+    margin:15px 0px;
+    padding:8px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width:43%;
+    background-color:#1877F2;
+    border-style: none;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.signin-div{
+    font-size: 17px;
+}
+.signin{
+    color:#1877F2;
+    text-decoration: none;
+    margin-left:3px;
+    font-size:inherit;
+}
+
+.or{
+    margin:15px 0px;
+    font-size: 20px;
+}
+
+.fb{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:35px;
+    margin:15px 0px;
+    padding:8px;
+    width:43%;
+    background-color:#4267B2;
+    border-style: none;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.google{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap:43px;
+    margin:15px 0px;
+    padding:8px;
+    width:43%;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    border:1px solid rgba(0, 0, 0, 0.334);
+    color:rgba(0, 0, 0, 0.689);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.fb-logo{
+    width:35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:5px;
+}
+
+.google-logo{
+    width:32px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:5px;
+}
